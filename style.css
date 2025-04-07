@@ -1,0 +1,199 @@
+.primeiraDiv {
+    width: 300px;
+    height: 1800px;
+    background-color: rgba(56, 161, 187, 0.358);
+    border: 1px solid black;
+}
+
+.segundaDiv {
+    height: 1800px;
+    width: 650px;
+    margin: 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+}
+
+.fotoPerfil {
+    background-image: url("assets/curriculo.jpeg");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.contato {
+    margin: 30px;  
+    color: #4F4F4F;
+}
+
+#contato {
+    color: black;
+}
+
+.formacao {
+    margin: 30px;
+    color: #4F4F4F;
+}
+
+#formacao1 {
+    color: black;
+}
+
+#formacao2 {
+    color: black;
+}
+
+#habilidades {
+    color: black;
+}
+
+.habilidades {
+    margin: 30px;
+    color: #4F4F4F;
+}
+
+.idiomas {
+    margin: 30px;
+    color: #4F4F4F;
+}
+
+#idiomas {
+    color: black;
+}
+
+#formacao {
+    font-weight: bold;
+    line-height: 1.0;
+    color: black;
+}
+
+#formacao1 {
+    font-size:16px;
+    font-weight: bold;
+    line-height: 1.0;
+    color: #4F4F4F;
+}
+
+#formacao2 {
+    font-size:16px;
+    font-weight: bold;
+    line-height: 1.0;
+    color: #4F4F4F;
+}
+
+
+#anos1 {
+    font-size:14px;
+    font-weight: bold;
+    line-height: 1.0;
+}
+
+#anos2 {
+    font-size:14px;
+    font-weight: bold;
+    line-height: 1.0;
+}
+
+#universidade1 {
+    font-size:15px;
+    line-height: 1.0;
+    color: #4F4F4F;
+}
+
+#universidade2 {
+    font-size:15px;
+    line-height: 1.0;
+    color: #4F4F4F;
+}
+
+.listaHabilidades {
+    list-style-type: square;
+}
+
+.meuNome {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sobreMim {
+    width: 600px;
+    height:700px;
+    margin: 30px;
+    color:#363636;
+    position: absolute;
+    top:180px;
+    text-align: justify;
+}
+
+#sobreMim {
+    color:black;
+}
+
+.free {
+    line-height: 1.0;
+    height: 200px;
+    margin: 30px;
+    color:#363636;
+}
+
+.experiencia {
+    margin: 30px;
+    margin-top: 250px;
+    height: 250px;
+}
+
+.botoesLinkados {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#linkedin {
+    border-radius: 30px;
+    width:100px;
+    height: 50px;
+    margin: 30px;
+    background-color: #363636;
+    color: white;
+    font-style: bold;
+}
+
+#github {
+    border-radius: 30px;
+    width:100px;
+    height: 50px;
+    margin: 30px;
+    background-color: #363636;
+    color: white;
+    font-style: bold;
+}
+
+#githubLink {
+    color:white;
+    font-weight: bold;
+}
+
+#linkedinLink {
+    color: white;
+    font-weight: bold;
+}
